@@ -1,0 +1,30 @@
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.AssemblyInfo.cs
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\Working\source\repos\TCP PR lab\Client\bin\Debug\net6.0\Client.exe
+C:\Users\Working\source\repos\TCP PR lab\Client\bin\Debug\net6.0\Client.deps.json
+C:\Users\Working\source\repos\TCP PR lab\Client\bin\Debug\net6.0\Client.runtimeconfig.json
+C:\Users\Working\source\repos\TCP PR lab\Client\bin\Debug\net6.0\Client.dll
+C:\Users\Working\source\repos\TCP PR lab\Client\bin\Debug\net6.0\ref\Client.dll
+C:\Users\Working\source\repos\TCP PR lab\Client\bin\Debug\net6.0\Client.pdb
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.dll
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\ref\Client.dll
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.pdb
+C:\Users\Working\source\repos\TCP PR lab\Client\obj\Debug\net6.0\Client.genruntimeconfig.cache
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\bin\Debug\net6.0\Client.exe
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\bin\Debug\net6.0\Client.deps.json
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\bin\Debug\net6.0\Client.runtimeconfig.json
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\bin\Debug\net6.0\Client.dll
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\bin\Debug\net6.0\ref\Client.dll
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\bin\Debug\net6.0\Client.pdb
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.AssemblyInfo.cs
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.dll
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\ref\Client.dll
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.pdb
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.genruntimeconfig.cache
+D:\UTM\Sem VI\PR\Lab 1\TCP PR lab\Client\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
