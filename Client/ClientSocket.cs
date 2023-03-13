@@ -10,7 +10,7 @@ namespace Client
 {
      internal class ClientSocket
      {
-          private readonly Socket _clientSocket;
+          readonly Socket _clientSocket;
 
           public ClientSocket()
           {
@@ -39,14 +39,12 @@ namespace Client
                {
                     try
                     {
-                         Console.Write("Your message: ");
+                         Console.Write("\nYour message: ");
                          string text = Console.ReadLine() ?? "";
 
                          if(text == "q")
                          {
-                              _clientSocket.Shutdown(SocketShutdown.Both);
-                              _clientSocket.Close();
-                              Console.Write("Disconnected!");
+                              CloseClientSocket();
                               return;
                          }
 
@@ -56,13 +54,20 @@ namespace Client
                          byte[] bytesResponse = new byte[1024];
                          int bytesReceived = _clientSocket.Receive(bytesResponse);
                          string response = Encoding.ASCII.GetString(bytesResponse, 0, bytesReceived);
-                         Console.WriteLine("Response from Server: " + response);
+                         Console.WriteLine(response);
                     }
                     catch(Exception ex)
                     {
                          Console.WriteLine($"Error sending: {ex.Message}");
                     }
                }
+          }
+
+          public void CloseClientSocket()
+          {
+               _clientSocket.Shutdown(SocketShutdown.Both);
+               _clientSocket.Close();
+               Console.Write("\nDisconnected!");
           }
      }
 }

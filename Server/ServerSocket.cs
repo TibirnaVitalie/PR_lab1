@@ -85,25 +85,33 @@ namespace Server
                     {
                          byte[] buffer = new byte[1024];
                          int bytesCount = client.Receive(buffer);
-                         string response = "Message received !";
+                         string message = "Message received !";
 
                          if (bytesCount == 0)
                          {
                               Console.WriteLine($"Client {client.RemoteEndPoint} disconnected :(");
+                              CloseClientSocket(client);
                               return;
                          }
 
                          string text = Encoding.UTF8.GetString(buffer, 0, bytesCount);
-                         Console.WriteLine($"From {client.RemoteEndPoint}: {text}");
+                         Console.WriteLine($"{client.RemoteEndPoint}\tsays: {text}");
 
-                         buffer = Encoding.UTF8.GetBytes(response);
+                         buffer = Encoding.UTF8.GetBytes(message);
                          client.Send(buffer);
                     }
                     catch (Exception ex)
                     {
-                         Console.WriteLine($"Error receiving data from {client.RemoteEndPoint}: {ex.Message}");
+                         CloseClientSocket(client);
                     }
                }
+          }
+
+          public void CloseClientSocket(Socket client)
+          {
+               client.Shutdown(SocketShutdown.Both);
+               client.Close();
+               Console.Write($"Client {client.RemoteEndPoint} disconnected!");
           }
      }
 }
